@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+    <!-- bean definitions here -->
+    <bean class="springCorebasicImplemenation.Circle" name="circle1">
+    <property name="radius" value="007"></property>
+    </bean>
+ 
+   <bean class="springCorebasicImplemenation.Rectangle" name="myrectangle">
+    <property name="width" value="007"></property>
+    <property name="height" value="007"></property>
+    </bean>
+</beans>
