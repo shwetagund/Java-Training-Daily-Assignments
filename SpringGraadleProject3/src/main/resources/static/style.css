@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+ body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            font-family: 'Arial';
+        }
+       h1 {
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            font-size: 15px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+       .login 
+       {
+            width: 382px;
+            overflow: hidden;
+            margin: auto;
+            margin: 20 0 0 450px;
+            padding: 80px;
+            background: white;  
+           border-radius:15px;
+            }
+
+        #Uname {
+            width: 300px;
+            height: 30px;
+            border: 2px solid grey;
+            border-radius: 3px;
+            padding-left: 8px;
+
+        }
+
+        #Pass {
+            width: 300px;
+            height: 30px;
+            border: 2px solid grey;
+            border-radius: 3px;
+            padding-left: 8px;
+
+        }
+
+        #log {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 17px;
+            padding-left: 7px;
+            padding-top: 5px;
+            background-color: blue;
+
+
+        }
+
+        button {
+            float: right;
+            background-color: rgb(23, 156, 209);
+            color: white;
+            width: 60px;
+            margin-bottom: 10px;
+
+        }
+
+        .container {
+            padding: 45px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .inlineFloatLeft {
+            float: left;
+
+        }
+
+        .inlineFloatRight {
+            float: right;
+            background-color: cornflowerblue;
+        }
