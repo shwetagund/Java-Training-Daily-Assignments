@@ -8,10 +8,10 @@
 		<version>2.5.8</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.Onetoonespring</groupId>
-	<artifactId>one2onerelationspringproject</artifactId>
+	<groupId>com.allopertioninspringboot</groupId>
+	<artifactId>alldatabaseoperation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>one2onerelationspringproject</name>
+	<name>alldatabaseoperation</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -39,12 +39,12 @@
 		<dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
-            <version>2.7.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.7.0</version>
+            <artifactId>springfox-boot-starter</artifactId>
+            <version>3.0.0</version>
         </dependency>
 	</dependencies>
 
